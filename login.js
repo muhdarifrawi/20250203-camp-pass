@@ -11,7 +11,7 @@ function loadLogin(){
         loginBtn.addEventListener("click", () => {handleLogin(event)});
     }
     if(adminLoginBtn){
-        adminLoginBtn.addEventListener("click", () => {handleLogin(event)});
+        adminLoginBtn.addEventListener("click", () => {handleAdminLogin(event)});
     }
 }
 
@@ -76,7 +76,18 @@ function handleAdminLogin(event){
         return handleLoginError()
     }
 
-    return 
+    let selectedData = personnelData.map((p)=>{
+        if(p.username == username && p.password == password && p.designation == "oc"){
+            return p
+        }
+        else {
+            return handleLoginError()
+        }
+    })
+
+    console.log(selectedData);
+
+    return window.location.href = "adminportal.html"
 }
 
 function handleLoginError(){
