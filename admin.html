@@ -10,25 +10,33 @@
 </head>
 
 <body>
-    <div class="container d-flex justify-content-center align-items-center">
-        <div class="card mt-5" style="width: 18rem;">
-            <div class="card-body">
-                <h3 class="card-title">Admin Login</h3>
-                <form>
-                    <div class="mb-3">
-                        <span id="error-msg" class="text-danger"></span>
+    <div class="container d-flex flex-column align-items-center">
+        <div class="row">
+            <div class="col">
+                <div class="card mt-5" style="width: 18rem;">
+                    <div class="card-body">
+                        <h3 class="card-title">Admin Login</h3>
+                        <form>
+                            <div class="mb-3">
+                                <span id="error-msg" class="text-danger"></span>
+                            </div>
+                            <div class="mb-3">
+                                <label for="usernameInput" class="form-label" required>Username</label>
+                                <input type="text" class="form-control" id="usernameInput" aria-describedby="usernameInputHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="passwordInput" class="form-label" required>Password</label>
+                                <input type="password" class="form-control" id="passwordInput">
+                            </div>
+                            <button type="submit" id="admin-login-btn" class="btn btn-primary">Login</button>
+                        </form>
                     </div>
-                    <div class="mb-3">
-                        <label for="usernameInput" class="form-label" required>Username</label>
-                        <input type="text" class="form-control" id="usernameInput" aria-describedby="usernameInputHelp">
-                    </div>
-                    <div class="mb-3">
-                        <label for="passwordInput" class="form-label" required>Password</label>
-                        <input type="password" class="form-control" id="passwordInput">
-                    </div>
-                    <button type="submit" id="admin-login-btn" class="btn btn-primary">Login</button>
-                </form>
-                
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <a class="link" href="index.html">Main Page</a>
             </div>
         </div>
     </div>
