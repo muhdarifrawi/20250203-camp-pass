@@ -41,7 +41,7 @@ function mockInfo() {
                 "password": "password123", 
                 "unit": "32CSSB", 
                 "company": "security",  
-                "platoon": "2", 
+                "platoon": "1", 
                 "designation": "pc",
                 "permissions": "platoon-control" 
             },
@@ -52,7 +52,7 @@ function mockInfo() {
                 "password": "password123", 
                 "unit": "32CSSB", 
                 "company": "security",  
-                "platoon": "2", 
+                "platoon": "1", 
                 "designation": "ps",
                 "permissions": "platoon-control" 
             },
@@ -63,7 +63,73 @@ function mockInfo() {
                 "password": "password123", 
                 "unit": "32CSSB", 
                 "company": "security",  
+                "platoon": "1", 
+                "designation": "man",
+                "permissions": "user-only"  
+            },
+            { 
+                "firstName": "Kayden", 
+                "lastName": "Burns", 
+                "username": "kaydenburns", 
+                "password": "password123", 
+                "unit": "32CSSB", 
+                "company": "security",  
                 "platoon": "2", 
+                "designation": "pc",
+                "permissions": "platoon-control" 
+            },
+            { 
+                "firstName": "Grant", 
+                "lastName": "Leblanc", 
+                "username": "grantleblanc", 
+                "password": "password123", 
+                "unit": "32CSSB", 
+                "company": "security",  
+                "platoon": "2", 
+                "designation": "ps",
+                "permissions": "platoon-control" 
+            },
+            { 
+                "firstName": "Kristian", 
+                "lastName": "Douglas", 
+                "username": "kristiandouglas", 
+                "password": "password123", 
+                "unit": "32CSSB", 
+                "company": "security",  
+                "platoon": "2", 
+                "designation": "man",
+                "permissions": "user-only"  
+            },
+            { 
+                "firstName": "Ibrahim", 
+                "lastName": "Conner", 
+                "username": "ibrahimconner", 
+                "password": "password123", 
+                "unit": "32CSSB", 
+                "company": "security",  
+                "platoon": "3", 
+                "designation": "pc",
+                "permissions": "platoon-control" 
+            },
+            { 
+                "firstName": "Santino", 
+                "lastName": "Vega", 
+                "username": "santinovega", 
+                "password": "password123", 
+                "unit": "32CSSB", 
+                "company": "security",  
+                "platoon": "3", 
+                "designation": "ps",
+                "permissions": "platoon-control" 
+            },
+            { 
+                "firstName": "Adan", 
+                "lastName": "Mccormick", 
+                "username": "adanmccormick", 
+                "password": "password123", 
+                "unit": "32CSSB", 
+                "company": "security",  
+                "platoon": "3", 
                 "designation": "man",
                 "permissions": "user-only"  
             }
